@@ -1,0 +1,8 @@
+.chart {
+  /* background-color: conic-gradient(red 4%, gray 8%, blue 17%,yellow 28%, purple 24%, orange 0); */
+  background: conic-gradient(at 50% 50%, #f06, gold);
+  /* background-color: red; */
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}

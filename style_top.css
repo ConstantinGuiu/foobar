@@ -1,0 +1,36 @@
+#tops{
+    width: 100%;
+    display: block;
+    grid-area: tb;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas:
+        "bn bp";
+}
+
+.top{
+    display: inline-block;
+    width: 100%;
+    background-color: yellow;
+}
+
+.top p{
+    display: inline-block;
+    font-size: 14px;
+    grid-area: bn;
+}
+
+.outerTopBar{
+    display: inline-block;    
+    grid-area: bp;
+    width: 50vw;
+    background-color: purple;
+    margin: 0;
+    padding: 0;
+}
+
+.topBar{
+    display: inline-block;    
+    width: 50%;
+    height: 14px;
+    background-color: blue;
+}
